@@ -6,7 +6,8 @@ section {
   width: 400px;
   background-image: url("http://www.mulierchile.com/flappy-bird-background/flappy-bird-background-002.jpg");
   background-size: cover;
-  overflow: hidden
+  overflow: hidden;
+  position: relative;
 }
 
 body {
@@ -19,5 +20,12 @@ body {
 }
 
 #bird {
-  width: 10%;
+  width: 15%;
+}
+
+#pipe {
+  position: absolute;
+  bottom:  400px;
+  right: 0px;
+
 }
