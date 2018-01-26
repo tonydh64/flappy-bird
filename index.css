@@ -1,4 +1,4 @@
-section {
+#oiseaux {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -6,6 +6,7 @@ section {
   width: 400px;
   background-image: url("http://www.mulierchile.com/flappy-bird-background/flappy-bird-background-002.jpg");
   background-size: cover;
+  overflow: hidden;
 }
 
 body {
@@ -19,4 +20,16 @@ body {
 
 img {
   width: 15%;
+}
+
+#tuyaux {
+  width: 5%;
+    position: absolute;
+    bottom: 400px;
+    right: 500px;
+    overflow: hidden;
+  }
+
+}
+
 }
